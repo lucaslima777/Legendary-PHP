@@ -1,0 +1,10 @@
+{
+    "require": {
+        "respect/validation": "^1.0.0",
+        "monolog/monolog": "^1.23.0",
+        "tumadjian/mvc": "2.*"
+    },
+    "require-dev": {
+
+    }
+}
