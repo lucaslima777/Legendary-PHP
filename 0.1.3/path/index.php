@@ -5,10 +5,10 @@ require 'Validation.php';
 
 try{
     
-    Validation::max('Lucas', 1);
+    Validation::max('Lucas', 2);
 
 } catch(\ValidationError $error){
-    echo 'Tamanho maior do que o permitido';
+    echo $error->getMessage();
 }
 
 ?>
