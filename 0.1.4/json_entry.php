@@ -5,7 +5,7 @@ $json = <<<JSON
     "data": [
         {
             "nome": "Lucas Lima",
-            "email": "lucaslimatorre@gmail.com",
+            "email": "lucas@gmail.com",
             "telefone": "(11)91234-5678"
         },
         {
@@ -23,6 +23,17 @@ $json = <<<JSON
 JSON;
 
 $jsonPHP = json_decode($json);
+
+//check json error
+switch(json_last_error()){
+    case JSON_ERROR_DEPTH:
+        exit('Erro Json Muito Longo');
+        break;
+    case JSON_ERROR_SYNTAX:
+        exit('Erro de Sintax');
+        break;
+}
+
 
 var_dump($jsonPHP);//GET All Json
 
