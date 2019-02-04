@@ -32,6 +32,9 @@ switch(json_last_error()){
     case JSON_ERROR_SYNTAX:
         exit('Erro de Sintax');
         break;
+    case JSON_ERROR_NONE:
+        echo 'Json Correto';
+        break;
 }
 
 
