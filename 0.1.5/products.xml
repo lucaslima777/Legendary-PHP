@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application>
+    <products>
+        <product id="1001" order="1">
+            <name>Smartphone</name>
+            <price>$ 900.00</price>
+            <quantity>18</quantity>
+        </product>
+        <product  id="1002" order="3">
+            <name>SmartWatch</name>
+            <price>$ 1200.00</price>
+            <quantity>4</quantity>
+        </product>
+        <product  id="1003" order="5">
+            <name>Headfone</name>
+            <price>$ 200.00</price>
+            <quantity>10</quantity>
+        </product>
+        <product  id="1004" order="2">
+            <name>Keyboard</name>
+            <price>$ 500.00</price>
+            <quantity>13</quantity>
+        </product>
+        <product  id="1005" order="4">
+            <name>Television</name>
+            <price>$ 700.00</price>
+            <quantity>9</quantity>
+        </product>
+        <product  id="1006" order="7">
+            <name>Tablet</name>
+            <price>$ 1500.00</price>
+            <quantity>6</quantity>
+        </product>
+        <product  id="1007" order="6">
+            <name>PowerBank</name>
+            <price>$ 100.00</price>
+            <quantity>5</quantity>
+        </product>
+    </products>
+</application>
