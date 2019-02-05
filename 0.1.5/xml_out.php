@@ -25,4 +25,8 @@ header('Content-Type: application/xml');
 
 //Convert in XML
 echo $xml->asXML();
+
+//Create file XML in directory
+$xml->asXML('./xml_create.xml');
+
 ?>
