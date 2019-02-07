@@ -1,0 +1,21 @@
+{
+    "name": "tumadjian/mvc",
+    "description": "MVC skeleton for study",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Tumadjian",
+            "email": "tumadjian@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "src/"
+        }
+    }
+}
